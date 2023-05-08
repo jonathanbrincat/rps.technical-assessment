@@ -1,0 +1,23 @@
+FROM node:lts-alpine AS client
+
+# JB: try to avoid javascript out of memory experienced on basic package DigitalOcean droplet
+# ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ENV NODE_OPTIONS --max-old-space-size=968
+
+# Create app directory
+WORKDIR /app
+
+# Install basic lightweight web server to run the client app locally(bypass and negate running vue cli)
+RUN npm install -g http-server
+
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+COPY package*.json ./
+
+RUN npm install
+
+# Bundle app source
+COPY . .
+RUN npm run build
+
+CMD ["http-server", "dist", "--port", "8000", "--ssl", "--cert", "./certs/fullchain.pem", "--key", "./certs/privkey.pem"]
