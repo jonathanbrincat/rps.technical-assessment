@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --app-width: 1280px;
+  }
+
+  :root,
+  body {
+    @apply bg-stone-800 font-sans antialiased;
+  }
+
+  section {
+    @apply my-8;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply border-4 border-black bg-stone-200 px-3 py-2 cursor-pointer;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus {
+    @apply bg-black text-white;
+  }
+
+  .product-card {
+    @apply relative;
+  }
+}
+
+/* DEVNOTE:
+tailwind animations are a bust + finickity(especially in the absence of reactivity).
+Troubleshooting will demand more of my time. The fight is with the framework.
+Animations applied in regular css will do the job just fine.
+*/
+.carousel__slide {
+  animation: 0.5s ease-in-out;
+}
+
+.carousel__slide--to-left {
+  animation-name: moveLeft;
+}
+
+.carousel__slide--from-right {
+  animation-name: moveRight;
+}
+
+.carousel__slide--to-right {
+  animation-name: moveRight;
+  animation-direction: reverse;
+}
+
+.carousel__slide--from-left {
+  animation-name: moveLeft;
+  animation-direction: reverse;
+}
+
+@keyframes moveLeft {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes moveRight {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 0;
+  }
+}

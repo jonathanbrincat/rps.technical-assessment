@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283px" height="374px" viewBox="0 0 283 374" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>GFX</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-373.000000, -3.000000)">
+            <g id="v1" transform="translate(-2.000000, 2.000000)">
+                <g id="GFX" transform="translate(373.000000, 0.000000)">
+                    <g id="logo" transform="translate(0.000000, 1.000000)">
+                        <g id="poly-shapes" transform="translate(2.000000, 0.000000)">
+                            <polygon id="green-poly" fill="#59B94D" points="141.5 283 141.5 374 283 232.5 237.5 187"></polygon>
+                            <polygon id="yellow-poly" fill="#F8EA27" points="141.5 283 141.5 374 0 232.5 45.5 187"></polygon>
+                            <polygon id="blue-poly" fill="#26B4DA" points="141.5 91 141.5 5.68434189e-14 283 141.5 237.5 187"></polygon>
+                            <polygon id="pink-poly" fill="#E854A0" points="45.5 187 141.5 91 141.5 0 0 141.5"></polygon>
+                            <polygon id="Path-4" fill="#E85427" points="78 219.5 45.5 187 78 154.5 110.5 187"></polygon>
+                            <polygon id="Path-5" fill="#58D4D6" points="237.5 187 205 219.5 172.5 187 205 154.5"></polygon>
+                            <polygon id="Path-9" fill="#162E36" points="141.5 283 141.5 218 172.5 187 205 219.5"></polygon>
+                            <polygon id="Path-8" fill="#3A1509" points="141.5 218 141.5 283 78 219.500979 110.5 187"></polygon>
+                            <polygon id="Path-7" fill="#162E36" points="172.5 187 205 154.5 141.5 91 141.5 156"></polygon>
+                            <polygon id="Path-6" fill="#3A1509" points="110.5 187 78 154.5 141.5 91 141.5 156"></polygon>
+                            <polygon id="black-diamond" fill="#0E0502" points="141.5 218 172.5 187 141.5 156 110.5 187"></polygon>
+                        </g>
+                    </g>
+                    <g id="pink-triangulated" transform="translate(2.000000, 0.000000)">
+                        <polygon id="Path-2-Copy" fill="#EF5FA9" transform="translate(118.000000, 92.250000) scale(-1, 1) translate(-118.000000, -92.250000) " points="141.5 139 94.5 92 139 45.5"></polygon>
+                        <polygon id="Path-2-Copy-2" fill="#E72F8D" points="93.5 140 48.8152586 93.7661133 96.0151492 46.5399171"></polygon>
+                        <polygon id="Path-2-Copy-4" fill="#E34094" transform="translate(69.250000, 141.000000) scale(-1, 1) translate(-69.250000, -141.000000) " points="92.5 187.5 46 141 90.5 94.5"></polygon>
+                        <polygon id="Path-2-Copy-3" fill="#D61578" points="45 187.5 0 142.5 47 95.5"></polygon>
+                    </g>
+                    <g id="green-triangulated-copy-2" style="mix-blend-mode: luminosity;" transform="translate(214.000000, 281.000000) scale(-1, -1) translate(-214.000000, -281.000000) translate(143.000000, 187.000000)">
+                        <polygon id="Path-2-Copy" fill="#2ABDE5" transform="translate(117.500000, 91.750000) scale(-1, 1) translate(-117.500000, -91.750000) " points="141.5 139 93.5 91 138 44.5"></polygon>
+                        <polygon id="Path-2-Copy-2" fill="#20A6C9" points="92.5 140 47 94.5 95.5 46"></polygon>
+                        <polygon id="Path-2-Copy-4" fill="#28AFD4" transform="translate(69.250000, 140.575210) scale(-1, 1) translate(-69.250000, -140.575210) " points="92 186 46.5 140.5 92 95.1504191"></polygon>
+                        <polygon id="Path-2-Copy-3" fill="#12A0C5" points="45.5 187 0 141.5 45.5 96"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

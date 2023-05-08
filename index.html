@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/svg/logo_pix8.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Test</title>
+  </head>
+
+  <body>    
+    <div id="app" class="flex flex-col min-h-screen">
+      <header class="app__masthead border-t-8 border-pink-600 bg-black text-white pt-4">
+        <div class="max-w-[var(--app-width)] mx-auto">
+          <h1 class="my-4">
+            <img src="/svg/logo_placeholder.svg" alt="" />
+          </h1>
+        </div>
+      </header>
+
+      <main class="app__main grow">
+        <section class="w-full mt-0">
+          <div class="ui__carousel relative w-full">
+            <ul class="carousel__slider relative w-full h-[420px] md:h-[540px] xl:h-[680px] overflow-hidden">
+              <li class="carousel__slide hidden c-active:grid c-cue:grid grid-cols-[1fr_minmax(0,_var(--app-width))_1fr] c-cue:absolute c-cue:top-0 relative w-full h-full carousel__slide--active">
+                <picture class="block overflow-hidden row-span-full col-span-full z-0">
+                  <!--
+                    DEVNOTE: limited imagery unsuitable; ideally you would try to art direct and groom the aspect ratio or compliment with server-side tech to curate imagery on the fly
+                  -->
+                  <img class="object-cover object-center w-full"
+                      src="/img/jason-hawke_1920.jpg"
+                      srcset="
+                        /img/jason-hawke_768.jpg 768w,
+                        /img/jason-hawke_1280.jpg 1280w,
+                        /img/jason-hawke_1920.jpg 1920w"
+                      sizes="100vw"
+                      alt="" />
+                </picture>
+                <div class="flex flex-col row-span-full col-span-full xl:col-span-1 xl:col-start-2 z-10 justify-between px-4 xl:px-0">
+                  <header class="relative h-full">
+                    <h2 class="text-4xl md:text-5xl xl:text-6xl text-white text-shadow text-center w-full px-16 my-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Check out these great deals</h2>
+                  </header>
+                  <div>
+                    <p class="btn-primary float-right my-4"><a href="/">Grab a deal</a></p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="carousel__slide hidden c-active:grid c-cue:grid grid-cols-[1fr_minmax(0,_var(--app-width))_1fr] c-cue:absolute c-cue:top-0 relative w-full h-full">
+                <picture class="block overflow-hidden row-span-full col-span-full z-0">
+                  <img class="object-cover object-center w-full"
+                      src="/img/sai-de-silva_1920.jpg"
+                      srcset="
+                        /img/sai-de-silva_768.jpg 768w,
+                        /img/sai-de-silva_1280.jpg 1280w,
+                        /img/sai-de-silva_1920.jpg 1920w"
+                      sizes="100vw"
+                      alt="" />
+                  </svg>
+                </picture>
+                <div class="flex flex-col row-span-full col-span-full xl:col-span-1 xl:col-start-2 z-10 justify-between px-4 xl:px-0">
+                  <header class="relative h-full">
+                    <h2 class="text-4xl md:text-5xl xl:text-6xl text-white text-shadow text-center w-full px-16 my-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">A simply irresistible offer</h2>
+                  </header>
+                  <div>
+                    <p class="btn-primary float-right my-4"><a href="/">Check out offers</a></p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="carousel__slide hidden c-active:grid c-cue:grid grid-cols-[1fr_minmax(0,_var(--app-width))_1fr] c-cue:absolute c-cue:top-0 relative w-full h-full">
+                <picture class="block overflow-hidden row-span-full col-span-full z-0">
+                  <img class="object-cover object-center w-full"
+                      src="/img/marcus-loke_1920.jpg"
+                      srcset="
+                        /img/marcus-loke_768.jpg 768w,
+                        /img/marcus-loke_1280.jpg 1280w,
+                        /img/marcus-loke_1920.jpg 1920w"
+                      sizes="100vw"
+                      alt="" />
+                  </svg>
+                </picture>
+                <div class="flex flex-col row-span-full col-span-full xl:col-span-1 xl:col-start-2 z-10 justify-between px-4 xl:px-0">
+                  <header class="relative h-full">
+                    <h2 class="text-4xl md:text-5xl xl:text-6xl text-white text-shadow text-center w-full px-16 my-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Amazing savings over the high-street</h2>
+                  </header>
+                  <div>
+                    <p class="btn-primary float-right my-4"><a href="/">Save now</a></p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="carousel__slide hidden c-active:grid c-cue:grid grid-cols-[1fr_minmax(0,_var(--app-width))_1fr] c-cue:absolute c-cue:top-0 relative w-full h-full">
+                <picture class="block overflow-hidden row-span-full col-span-full z-0">
+                  <img class="object-cover object-center w-full"
+                      src="/img/ian-talmacs_1920.jpg"
+                      srcset="
+                        /img/ian-talmacs_768.jpg 768w,
+                        /img/ian-talmacs_1280.jpg 1280w,
+                        /img/ian-talmacs_1920.jpg 1920w"
+                      sizes="100vw"
+                      alt="" />
+                  </svg>
+                </picture>
+                <div class="flex flex-col row-span-full col-span-full xl:col-span-1 xl:col-start-2 z-10 justify-between px-4 xl:px-0">
+                  <header class="relative h-full">
+                    <h2 class="text-4xl md:text-5xl xl:text-6xl text-white text-shadow text-center w-full px-16 my-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Great benefits for members</h2>
+                  </header>
+                  <div>
+                    <p class="btn-primary float-right my-4"><a href="/">Learn more</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            
+            <button class="carousel__control carousel__control--previous bg-stone-200 text-4xl flex items-center justify-center absolute z-10 left-0 top-1/2 -translate-y-1/2 w-16 h-16 cursor-pointer">&larr;</button>
+            <button class="carousel__control carousel__control--next bg-stone-200 text-4xl flex items-center justify-center absolute z-10 right-0 top-1/2 -translate-y-1/2 w-16 h-16 cursor-pointer">&rarr;</button>
+          </div>
+        </section>
+
+        <section class="max-w-[var(--app-width)] mx-auto">
+          <div class="grid grid-cols md:grid-cols-2 xl:grid-cols-3 gap-4 pl-20 md:pl-0">
+            <div class="product-card">
+              <picture class="block">
+                <a class="block relative hover:after:border-[10px] after:border-black after:absolute after:inset-0 hover:scale-105 transform-gpu transition-transform ease-out duration-300"
+                   href="/">
+                  <img class="object-cover object-center h-[320px] w-full"
+                      src="/img/dom-hill_768.jpg"
+                      alt="" />
+                  </a>
+                </picture>
+              <p class="btn-primary absolute bottom-4 right-4"><a href="/">Shop now</a></p>
+            </div>
+
+            <div class="product-card">
+              <picture class="block">
+                  <a class="block relative hover:after:border-[10px] after:border-black after:absolute after:inset-0 hover:scale-105 transform-gpu transition-transform ease-out duration-300"
+                     href="/">
+                    <img class="object-cover object-center h-[320px] w-full"
+                        src="/img/ahmed-carter_768.jpg"
+                        alt="" />
+                  </a>
+                </picture>
+              <p class="btn-primary absolute bottom-4 right-4"><a href="/">Shop now</a></p>
+            </div>
+
+            <div class="product-card">
+              <picture class="block">
+                  <a class="block relative hover:after:border-[10px] after:border-black after:absolute after:inset-0 hover:scale-105 transform-gpu transition-transform ease-out duration-300"
+                     href="/">
+                    <img class="object-cover object-center h-[320px] w-full"
+                        src="/img/tamara-bellis_768.jpg"
+                        alt="" />
+                  </a>
+                </picture>
+              <p class="btn-primary absolute bottom-4 right-4"><a href="/">Shop now</a></p>
+            </div>
+
+            <div class="product-card">
+              <picture class="block overflow-hidden">
+                <a class="block relative hover:after:border-[10px] after:border-black after:absolute after:inset-0 hover:scale-105 transform-gpu transition-transform ease-out duration-300"
+                   href="/">
+                  <img class="object-cover object-center h-[320px] w-full"
+                      src="/img/jason-hawke_768.jpg"
+                      alt="" />
+                </a>
+              </picture>
+              <p class="btn-primary absolute bottom-4 right-4"><a href="/">Shop now</a></p>
+            </div>
+
+            <div class="product-card">
+              <picture class="block overflow-hidden">
+                <a class="block relative hover:after:border-[10px] after:border-black after:absolute after:inset-0 hover:scale-105 transform-gpu transition-transform ease-out duration-300"
+                   href="/">
+                  <img class="object-cover object-center h-[320px] w-full"
+                      src="/img/mattia-occhi_768.jpg"
+                      alt="" />
+                </a>
+              </picture>
+              <p class="btn-primary absolute bottom-4 right-4"><a href="/">Shop now</a></p>
+            </div>
+
+            <div class="product-card">
+              <picture class="block">
+                <a class="block relative hover:after:border-[10px] after:border-black after:absolute after:inset-0 hover:scale-105 transform-gpu transition-transform ease-out duration-300" href="/">
+                  <img class="object-cover object-center h-[320px] w-full"
+                      src="/img/sarah-dorweiler_768.jpg"
+                      alt="" />
+                </a>
+              </picture>
+              <p class="btn-primary absolute bottom-4 right-4"><a href="/">Shop now</a></p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="app__footer bg-black text-white">
+        <div class="max-w-[var(--app-width)] mx-auto">
+          <p class="text-sm my-4 float-right">&copy; Pix8 Ltd 2012-2023</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
+<!-- <img class="object-cover object-center h-[320px] w-full"
+     src="/img/placeholder_1920.png"
+     srcset="
+                        /img/placeholder_768.png 768w,
+                        /img/placeholder_1280.png 1280w,
+                        /img/placeholder_1920.png 1920w"
+     sizes="
+                        (max-width: 768px) calc(100vw - 1rem - 5rem),
+                        (max-width: 1280px) calc(50vw - 1rem),
+                        calc(1280px/3 - 1rem - 16px)"
+     alt="" /> -->
