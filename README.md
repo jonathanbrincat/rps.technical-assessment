@@ -16,6 +16,8 @@ Build the page using only HTML, CSS/SCSS and Javascript. No frameworks or librar
 
 If required, please include the package.json file.
 
+> *Candidate notes: Imagery supplied by client and the unsuitable aspect ratios, poor subject matter and unworkable framing was noted. I did try to alleviate this major oversight with some clever usage of responsive imagery but there is a limit to my superpowers when people are too lazy to pick workable images that compliment the task they ask you to perform. Really not sure who's being assessed for competency and attention to detail here.*
+
 ---
 
 Node: v18.x
